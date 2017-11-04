@@ -1,4 +1,4 @@
-# Youtube Video and Audio Downloader
+# Youtube Downloader
 
 ## How it Works
 - pip3 install pytube
