@@ -22,7 +22,7 @@ if(choice=='1'):
 elif(choice=='2'):
     print("Video is Downloading...") 
     dwn = yt.streams.filter(only_audio=True).first()
-    dwn.download()
+    dwn.download(desktop_loc)
     print("Downlod Complete !")   
 
 else:    
